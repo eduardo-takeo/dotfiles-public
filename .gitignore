@@ -1,5 +1,35 @@
-.DS_STORE
+# General
 
+*.o
+\#*#
+*#
+.#*
+.*~
+*~
+.DS_Store
+*.sw[po]
+tags
+TAGS
+.svn
+*.dSYM
+*.log
+*.dvi
+*.aux
+*.elc
+samples
+.netrwhist
+.bundle
+/vendor/bundle
+Gemfile.lock
+node_modules
+bower_components
+fishd.*
+
+# Folders
 configstore/
 iterm2/
 yarn/
+
+# Fish local config
+.config/fish/config-local.fish
+.config/fish/fish_variables.x86_64
