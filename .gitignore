@@ -28,6 +28,7 @@ fishd.*
 configstore/
 iterm2/
 yarn/
+gtk-2.0
 
 # Fish local config
 fish/config-local.fish
