@@ -1,23 +1,37 @@
 # dotfiles
 
-My personal dotfiles
+My personal terminal configuration
 
 
 ## ✨ Features
 
-- [alacritty](https://github.com/alacritty/alacritty) as terminal emulator 💻
-- [fish](https://fishshell.com/) as shell 🐠
+- [wezterm](https://wezfurlong.org/wezterm/) as terminal emulator 💻
+- zsh as shell 🐠
 - [nvim](https://neovim.io/) as text editor ✍️
 - [tmux](https://tmuxguide.readthedocs.io/en/latest/index.html) as tmux ⭐️
+
+## 🧰 Prerequisites
+- wezterm
+- neovim
+  - ripgrep
+  - fd
+  - fz
+- tmux
 
 
 ## 🛠 Installation
 
-Backup *~/.config* and *~/.local/share/nvim* directories
+Remove ~/.config folder
 
 ```bash
-mv ~/.config/nvim ~/.config/nvim.bak
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
+rm -rf ~/.config
+```
+
+Remove nvim caches and previous dependencies
+
+```bash
+rm ~/.config/nvim 
+rm ~/.local/share/nvim 
 ```
 
 Clone repo
@@ -25,4 +39,10 @@ Clone repo
 git clone https://github.com/eduardo-takeo/dotfiles-public.git ~/.config
 ```
 
-TODO
+Run neovim
+
+```bash
+nvim
+```
+```
+```
