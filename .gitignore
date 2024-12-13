@@ -28,7 +28,13 @@ fishd.*
 configstore/
 iterm2/
 yarn/
-gtk-2.0
+gtk-2.0/
+raycast/
+zed/
+gatsby/
+configstore/
+github-copilot/
+
 
 # Fish local config
 fish/config-local.fish
