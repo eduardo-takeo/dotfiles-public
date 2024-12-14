@@ -20,7 +20,7 @@ config = {
 	window_padding = {
 		left = 3,
 		right = 3,
-		top = 0,
+		top = 15,
 		bottom = 0,
 	},
 	background = {
@@ -167,6 +167,12 @@ config = {
 			mods = "LEADER",
 			key = "0",
 			action = wezterm.action.CloseCurrentPane({ confirm = false }),
+		},
+		-- toggle fullscreen
+		{
+			mods = "CTRL|SHIFT",
+			key = "Enter",
+			action = wezterm.action.ToggleFullScreen,
 		},
 	},
 }
