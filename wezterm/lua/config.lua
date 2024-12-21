@@ -8,9 +8,9 @@ end
 
 config = {
 	-- leader
-	leader = { key = "a", mods = "SHIFT|CTRL", timeout_milliseconds = 1000 },
+	leader = { key = "t", mods = "CTRL", timeout_milliseconds = 1000 },
 	-- bind remap keys
-	-- keys = keymaps,
+	keys = keymaps,
 	default_cursor_style = "BlinkingBar",
 	automatically_reload_config = true,
 	window_close_confirmation = "NeverPrompt",
