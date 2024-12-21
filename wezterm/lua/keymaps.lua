@@ -84,6 +84,15 @@ local keymaps = {
 		key = "Enter",
 		action = wezterm.action.ToggleFullScreen,
 	},
+	-- clear scrollback
+	{
+    mods = 'CMD',
+    key = 'k',
+    action = wezterm.action.Multiple {
+      wezterm.action.ClearScrollback 'ScrollbackAndViewport',
+      wezterm.action.SendKey { key = 'L', mods = 'CTRL' },
+    },
+  },
 }
 
 return keymaps
