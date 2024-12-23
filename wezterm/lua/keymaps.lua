@@ -45,23 +45,23 @@ local keymaps = {
 	},
 	-- resize
 	{
-		mods = "LEADER",
-		key = "LeftArrow",
+		mods = "LEADER|CTRL",
+		key = "h",
 		action = wezterm.action.AdjustPaneSize({ "Left", 5 }),
 	},
 	{
-		mods = "LEADER",
-		key = "RightArrow",
+		mods = "LEADER|CTRL",
+		key = "l",
 		action = wezterm.action.AdjustPaneSize({ "Right", 5 }),
 	},
 	{
-		mods = "LEADER",
-		key = "UpArrow",
+		mods = "LEADER|CTRL",
+		key = "k",
 		action = wezterm.action.AdjustPaneSize({ "Up", 5 }),
 	},
 	{
-		mods = "LEADER",
-		key = "DownArrow",
+		mods = "LEADER|CTRL",
+		key = "j",
 		action = wezterm.action.AdjustPaneSize({ "Down", 5 }),
 	},
 	-- show the pane selection mode, but have it swap the active and selected panes
@@ -86,13 +86,13 @@ local keymaps = {
 	},
 	-- clear scrollback
 	{
-    mods = 'CMD',
-    key = 'k',
-    action = wezterm.action.Multiple {
-      wezterm.action.ClearScrollback 'ScrollbackAndViewport',
-      wezterm.action.SendKey { key = 'L', mods = 'CTRL' },
-    },
-  },
+		mods = 'CMD',
+		key = 'k',
+		action = wezterm.action.Multiple {
+			wezterm.action.ClearScrollback 'ScrollbackAndViewport',
+			wezterm.action.SendKey { key = 'L', mods = 'CTRL' },
+		},
+	},
 }
 
 return keymaps
