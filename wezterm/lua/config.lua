@@ -8,7 +8,7 @@ end
 
 config = {
 	-- leader
-	leader = { key = "t", mods = "CTRL", timeout_milliseconds = 1000 },
+	leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 },
 	-- bind remap keys
 	keys = keymaps,
 	default_cursor_style = "BlinkingBlock",
@@ -18,10 +18,10 @@ config = {
 	window_decorations = "RESIZE",
 	check_for_updates = false,
 	use_fancy_tab_bar = false,
-	tab_bar_at_bottom = false,
+	tab_bar_at_bottom = true,
+	enable_tab_bar = true,
 	font_size = 12.5,
 	font = wezterm.font("MesloLGS NF", { weight = "Bold" }),
-	enable_tab_bar = false,
 	window_padding = {
 		left = 3,
 		right = 3,
@@ -31,7 +31,7 @@ config = {
 	background = {
 		{
 			source = {
-				Color = "#0F1218",
+				Color = "#1C2027"
 			},
 			width = "100%",
 			height = "100%",
