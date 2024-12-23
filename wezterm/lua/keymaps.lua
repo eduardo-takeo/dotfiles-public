@@ -25,12 +25,12 @@ local keymaps = {
 	},
 	{
 		mods = "LEADER",
-		key = "j",
+		key = "k",
 		action = wezterm.action.ActivatePaneDirection("Up"),
 	},
 	{
 		mods = "LEADER",
-		key = "k",
+		key = "j",
 		action = wezterm.action.ActivatePaneDirection("Down"),
 	},
 	{
