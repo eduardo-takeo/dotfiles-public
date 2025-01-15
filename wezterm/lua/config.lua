@@ -8,20 +8,20 @@ end
 
 config = {
 	-- leader
-	leader = { key = "t", mods = "CTRL", timeout_milliseconds = 1000 },
+	leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 },
 	-- bind remap keys
 	keys = keymaps,
-	default_cursor_style = "BlinkingBar",
+	default_cursor_style = "BlinkingBlock",
 	automatically_reload_config = true,
 	window_close_confirmation = "NeverPrompt",
 	adjust_window_size_when_changing_font_size = false,
 	window_decorations = "RESIZE",
 	check_for_updates = false,
 	use_fancy_tab_bar = false,
-	tab_bar_at_bottom = false,
+	tab_bar_at_bottom = true,
+	enable_tab_bar = true,
 	font_size = 12.5,
-	font = wezterm.font("JetBrains Mono", { weight = "Bold" }),
-	enable_tab_bar = false,
+	font = wezterm.font("MesloLGS NF", { weight = "Bold" }),
 	window_padding = {
 		left = 3,
 		right = 3,
@@ -31,24 +31,11 @@ config = {
 	background = {
 		{
 			source = {
-				File = "/Users/" .. os.getenv("USER") .. "/.config/wezterm/images/wallpaper.png",
-			},
-			hsb = {
-				hue = 1.0,
-				saturation = 1.02,
-				brightness = 0.25,
-			},
-			-- attachment = { Parallax = 0.3 },
-			-- width = "100%",
-			-- height = "100%",
-		},
-		{
-			source = {
-				Color = "#282c35",
+				Color = "#1C2027"
 			},
 			width = "100%",
 			height = "100%",
-			opacity = 0.55,
+			opacity = 1,
 		},
 	},
 	-- from: https://akos.ma/blog/adopting-wezterm/
