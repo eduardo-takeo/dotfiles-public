@@ -15,6 +15,7 @@ TAGS
 *.dvi
 *.aux
 *.elc
+*.bak
 samples
 .netrwhist
 .bundle
@@ -31,9 +32,12 @@ yarn/
 gtk-2.0/
 raycast/
 zed/
+ghostty/
+flipper/
 gatsby/
 configstore/
 github-copilot/
+*.bak/
 
 
 # Fish local config
