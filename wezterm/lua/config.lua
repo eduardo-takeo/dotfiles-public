@@ -1,3 +1,4 @@
+require("lua.events")
 local wezterm = require("wezterm")
 local keymaps = require("lua.keymaps")
 local config = {}
@@ -31,7 +32,7 @@ config = {
 	background = {
 		{
 			source = {
-				Color = "#1C2027"
+				Color = "#1C2027",
 			},
 			width = "100%",
 			height = "100%",
