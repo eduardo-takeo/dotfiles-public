@@ -1,0 +1,25 @@
+{
+  "window.commandCenter": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "extensions.ignoreRecommendations": true,
+  "window.restoreWindows": "none",
+  "editor.accessibilitySupport": "off",
+  "editor.lineNumbers": "relative"
+}
+
