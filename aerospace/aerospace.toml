@@ -173,3 +173,4 @@ automatically-unhide-macos-hidden-apps = false
 
 [workspace-to-monitor-force-assignment]
     0 = 'secondary'                       # Secondary monitor
+    9 = 'secondary'                       # Secondary monitor
