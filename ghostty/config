@@ -1,0 +1,37 @@
+# Theme
+theme = Argonaut
+
+# Font
+font-family = MesloLGS NF
+font-size = 13
+font-thicken = true
+
+# Cursor
+cursor-color = #ffffff
+
+# Background
+background-opacity = 0.85
+background-blur = 5
+
+# Window
+window-padding-x = 12
+
+# Keybinds
+## split panes
+keybind = ctrl+a>==new_split:right
+keybind = ctrl+a>-=new_split:down
+
+## go to pane
+keybind = ctrl+a>l=goto_split:right
+keybind = ctrl+a>h=goto_split:left
+keybind = ctrl+a>j=goto_split:down
+keybind = ctrl+a>k=goto_split:up
+
+## resize pane
+keybind = ctrl+a>ctrl+l=resize_split:right,20
+keybind = ctrl+a>ctrl+h=resize_split:left,20
+keybind = ctrl+a>ctrl+j=resize_split:down,20
+keybind = ctrl+a>ctrl+k=resize_split:up,20
+
+## close pane
+keybind = ctrl+a>0=close_surface
