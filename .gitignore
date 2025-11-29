@@ -36,9 +36,11 @@ flipper/
 gatsby/
 configstore/
 github-copilot/
+uv/
 *.bak/
 
 
 # Fish local config
 fish/config-local.fish
 fish/fish_variables
+fish/conf.d
