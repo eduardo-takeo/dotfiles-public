@@ -1,10 +1,16 @@
 # Theme
-theme = Catppuccin Mocha 
+theme = Paul Millr
 
 # Font
 font-size = 12
 font-thicken = true
 
+# Cursor
+cursor-color = #fff
+
 # Background
 background-opacity = 0.9
 background-blur = 5
+
+# Tabs
+macos-titlebar-style = tabs
