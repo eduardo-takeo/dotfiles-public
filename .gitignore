@@ -27,7 +27,7 @@ fishd.*
 
 # Folders
 configstore/
-iterm2/
+iterm2/*
 yarn/
 gtk-2.0/
 raycast/
@@ -44,3 +44,6 @@ uv/
 fish/config-local.fish
 fish/fish_variables
 fish/conf.d
+
+# Exceptions
+!iterm2/com.googlecode.iterm2.plist
