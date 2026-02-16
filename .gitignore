@@ -23,27 +23,13 @@ samples
 Gemfile.lock
 node_modules
 bower_components
-fishd.*
 
 # Folders
-configstore/
 iterm2/*
-yarn/
-gtk-2.0/
 raycast/
-zed/
-flipper/
-gatsby/
-configstore/
-github-copilot/
 uv/
 *.bak/
 
-
-# Fish local config
-fish/config-local.fish
-fish/fish_variables
-fish/conf.d
 
 # Exceptions
 !iterm2/com.googlecode.iterm2.plist
