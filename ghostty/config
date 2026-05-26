@@ -1,8 +1,7 @@
 # Theme
-theme = Ayu
+theme = Raycast Dark
 
 # Font
-font-family = Menlo
 font-size = 12
 font-thicken = true
 
@@ -10,8 +9,8 @@ font-thicken = true
 cursor-color = #fff
 
 # Background
-background-opacity = 0.9
-background-blur = 5
+background-opacity = 0.7
+background-blur = 20
 
 # Window
 window-padding-x = 10
@@ -24,6 +23,7 @@ macos-titlebar-style = tabs
 scrollback-limit = 10000
 
 # Keybinds
+# ctrl + t as prefix
 keybind = ctrl+a>-=new_split:down
 keybind = ctrl+a>==new_split:right
 
@@ -38,6 +38,9 @@ keybind = ctrl+a>ctrl+k=resize_split:up,20
 keybind = ctrl+a>ctrl+l=resize_split:right,20
 
 keybind = ctrl+a>0=close_surface
+keybind = ctrl+a>c=new_tab
 
-keybind = ctrl+a>]=next_tab
-keybind = ctrl+a>[=previous_tab
+keybind = ctrl+a>n=next_tab
+keybind = ctrl+a>p=previous_tab
+
+keybind = ctrl+a>e=equalize_splits
